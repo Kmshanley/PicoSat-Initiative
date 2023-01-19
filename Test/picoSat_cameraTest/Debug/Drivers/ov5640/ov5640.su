@@ -1,0 +1,16 @@
+../Drivers/ov5640/ov5640.c:24:9:OV5640_WR_Reg	24	static
+../Drivers/ov5640/ov5640.c:33:9:OV5640_RD_Reg	24	static
+../Drivers/ov5640/ov5640.c:45:9:OV5640_Init	16	static
+../Drivers/ov5640/ov5640.c:82:6:OV5640_JPEG_Mode	16	static
+../Drivers/ov5640/ov5640.c:92:6:OV5640_RGB565_Mode	16	static
+../Drivers/ov5640/ov5640.c:114:6:OV5640_Exposure	16	static
+../Drivers/ov5640/ov5640.c:142:6:OV5640_Light_Mode	32	static
+../Drivers/ov5640/ov5640.c:165:6:OV5640_Color_Saturation	32	static
+../Drivers/ov5640/ov5640.c:181:6:OV5640_Brightness	24	static
+../Drivers/ov5640/ov5640.c:196:6:OV5640_Contrast	24	static
+../Drivers/ov5640/ov5640.c:233:6:OV5640_Sharpness	16	static
+../Drivers/ov5640/ov5640.c:265:6:OV5640_Special_Effects	16	static
+../Drivers/ov5640/ov5640.c:279:6:OV5640_Flash_Lamp	16	static
+../Drivers/ov5640/ov5640.c:288:9:OV5640_OutSize_Set	24	static
+../Drivers/ov5640/ov5640.c:310:9:OV5640_Focus_Init	16	static
+../Drivers/ov5640/ov5640.c:341:9:OV5640_Auto_Focus	16	static

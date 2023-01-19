@@ -1,0 +1,5 @@
+../Core/Src/log.c:3:1:__io_putchar	16	static
+../Core/Src/log.c:9:6:log_format	32	static
+../Core/Src/log.c:17:6:log_error	16	static
+../Core/Src/log.c:25:6:log_info	16	static
+../Core/Src/log.c:33:6:log_debug	16	static
