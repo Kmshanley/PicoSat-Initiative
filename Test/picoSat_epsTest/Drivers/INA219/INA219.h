@@ -1,0 +1,12 @@
+#pragma once
+
+//I2c Address can be from 0b1000000 - 0b1001111
+#define INA219_I2C_ADR_LOW 0b1000000
+#define INA219_I2C_ADR_HIGH 0b1001111
+
+#define INA219_CONFIG 0x00
+#define INA219_SHUNT_VOLT 0x01
+#define INA219_BUS_VOLT 0x02
+#define INA219_POWER 0x03
+#define INA219_CURRENT 0x04
+#define INA219_CALIBRATION 0x05
