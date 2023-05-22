@@ -1,0 +1,1 @@
+Drivers/MAX17262/MAX17262.o: ../Drivers/MAX17262/MAX17262.c
