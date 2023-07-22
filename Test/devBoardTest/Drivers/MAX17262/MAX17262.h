@@ -5,6 +5,9 @@
  *      Author: Kieran Shanley
  */
 
+#include "i2c.h"
+#include "stdbool.h"
+
 #ifndef MAX17262_MAX17262_H_
 #define MAX17262_MAX17262_H_
 
@@ -101,23 +104,24 @@ typedef struct {
 	uint8_t addr; //The I2c address of this device
 } MAX17262_dev;
 
-int32_t MAX17262_get_voltage(MAX17262_t *dev, float * volts, bool avg);
-int32_t MAX17262_get_soc(MAX17262_t *dev, float * soc);
-int32_t MAX17262_get_avgCurrent(MAX17262_t *dev, float * current);
-int32_t MAX17262_get_instCurrent(MAX17262_t *dev, float * current);
-int32_t MAX17262_get_remCap(MAX17262_t *dev, float * remCap);
-int32_t MAX17262_get_fullCap(MAX17262_t *dev, float * fullCap);
-int32_t MAX17262_get_avgVbat(MAX17262_t *dev, float * avgVbat);
-int32_t MAX17262_get_avgTemp(MAX17262_t *dev, float * temp);
-int32_t MAX17262_get_TTE(MAX17262_t *dev, float * tte);
-int32_t MAX17262_get_TTF(MAX17262_t *dev, float * ttf);
-int32_t MAX17262_get_cycles(MAX17262_t *dev, float * cycles);
-int32_t MAX17262_get_filteredPower(MAX17262_t *dev, float * power);
-int32_t MAX17262_get_minMaxCurrent(MAX17262_t *dev, float * minCurrent, float * maxCurrent);
-int32_t MAX17262_wakeup(MAX17262_t *dev);
-int32_t MAX17262_autoHibernate(MAX17262_t *dev);
-int32_t MAX17262_set_batt_params(MAX17262_t *dev, uint32_t cap, float vempty, float vrecovery, uint8_t model);
-int32_t MAX17262_check_POR(MAX17262_t *dev, bool *POR);
+void MAX17262_setup(MAX17262_dev *dev, I2C_Bus * bus, uint8_t addr);
+int32_t MAX17262_get_voltage(MAX17262_dev *dev, float * volts, bool avg);
+int32_t MAX17262_get_soc(MAX17262_dev *dev, float * soc);
+int32_t MAX17262_get_avgCurrent(MAX17262_dev *dev, float * current);
+int32_t MAX17262_get_instCurrent(MAX17262_dev *dev, float * current);
+int32_t MAX17262_get_remCap(MAX17262_dev *dev, float * remCap);
+int32_t MAX17262_get_fullCap(MAX17262_dev *dev, float * fullCap);
+int32_t MAX17262_get_avgVbat(MAX17262_dev *dev, float * avgVbat);
+int32_t MAX17262_get_avgTemp(MAX17262_dev *dev, float * temp);
+int32_t MAX17262_get_TTE(MAX17262_dev *dev, float * tte);
+int32_t MAX17262_get_TTF(MAX17262_dev *dev, float * ttf);
+int32_t MAX17262_get_cycles(MAX17262_dev *dev, float * cycles);
+int32_t MAX17262_get_filteredPower(MAX17262_dev *dev, float * power);
+int32_t MAX17262_get_minMaxCurrent(MAX17262_dev *dev, float * minCurrent, float * maxCurrent);
+int32_t MAX17262_wakeup(MAX17262_dev *dev);
+int32_t MAX17262_autoHibernate(MAX17262_dev *dev);
+int32_t MAX17262_set_batt_params(MAX17262_dev *dev, uint32_t cap, float vempty, float vrecovery, uint8_t model);
+int32_t MAX17262_check_POR(MAX17262_dev *dev, bool *POR);
 
 
 #endif /* MAX17262_MAX17262_H_ */
