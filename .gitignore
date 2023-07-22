@@ -2,7 +2,6 @@
 *.o
 Test/devBoardTest/build/debug/build/CMakeCache.txt
 Test/devBoardTest/build/debug/build/CMakeFiles/cmake.check_cache
-
 *.cyclo
 *.d
 *.su
@@ -11,3 +10,4 @@ Test/devBoardTest/build/debug/build/CMakeFiles/cmake.check_cache
 *.list
 *.map
 *.log
+
