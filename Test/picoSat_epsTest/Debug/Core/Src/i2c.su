@@ -1,9 +1,0 @@
-../Core/Src/i2c.c:31:6:MX_I2C4_Init	8	static
-../Core/Src/i2c.c:74:6:HAL_I2C_MspInit	232	static
-../Core/Src/i2c.c:114:6:HAL_I2C_MspDeInit	16	static
-../Core/Src/i2c.c:149:9:BSP_I2C4_WriteReg	40	static
-../Core/Src/i2c.c:179:9:BSP_I2C4_ReadReg	40	static
-../Core/Src/i2c.c:209:9:BSP_I2C4_WriteReg16	40	static
-../Core/Src/i2c.c:239:9:BSP_I2C4_ReadReg16	40	static
-../Core/Src/i2c.c:270:16:I2C4_WriteReg	40	static
-../Core/Src/i2c.c:289:16:I2C4_ReadReg	40	static

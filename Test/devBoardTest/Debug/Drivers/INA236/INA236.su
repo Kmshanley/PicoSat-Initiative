@@ -1,6 +1,0 @@
-../Drivers/INA236/INA236.c:9:6:INA236_setup	24	static
-../Drivers/INA236/INA236.c:15:9:INA236_trigger_measurement	40	static
-../Drivers/INA236/INA236.c:27:9:INA236_get_power	40	static
-../Drivers/INA236/INA236.c:42:9:INA236_get_current	40	static
-../Drivers/INA236/INA236.c:57:9:INA236_get_shunt_voltage	40	static
-../Drivers/INA236/INA236.c:72:9:INA236_get_bus_voltage	40	static

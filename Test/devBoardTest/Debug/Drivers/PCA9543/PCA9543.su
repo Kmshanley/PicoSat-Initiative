@@ -1,2 +1,0 @@
-../Drivers/PCA9543/PCA9543.c:9:6:PCA9543_setup	24	static
-../Drivers/PCA9543/PCA9543.c:15:9:PCA9543_set_channel	32	static

@@ -1,2 +1,0 @@
-../Drivers/MAX17262/MAX17262.c:9:6:MAX17262_setup	24	static
-../Drivers/MAX17262/MAX17262.c:15:9:MAX17262_get_voltage	24	static

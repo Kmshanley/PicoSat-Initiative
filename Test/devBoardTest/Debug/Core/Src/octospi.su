@@ -1,6 +1,0 @@
-../Core/Src/octospi.c:31:6:MX_OCTOSPI1_Init	32	static
-../Core/Src/octospi.c:77:6:MX_OCTOSPI2_Init	32	static
-../Core/Src/octospi.c:124:6:HAL_OSPI_MspInit	272	static
-../Core/Src/octospi.c:271:6:HAL_OSPI_MspDeInit	16	static
-../Core/Src/octospi.c:350:6:EnableMemMapped	96	static
-../Core/Src/octospi.c:396:6:DelayBlock_Calibration	264	static
