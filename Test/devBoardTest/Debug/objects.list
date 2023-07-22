@@ -39,3 +39,4 @@
 "./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.o"
 "./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.o"
 "./Drivers/TMP117/TMP117.o"
+"./Drivers/W25Nxx/W25Nxx.o"

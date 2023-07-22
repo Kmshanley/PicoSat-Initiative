@@ -113,5 +113,6 @@ W25N_STATE W25N_Program_Execute(W25Nxx_dev * dev, uint16_t pageAddress);
 W25N_STATE W25N_Page_Data_Read(W25Nxx_dev * dev, uint16_t pageAddress);
 W25N_STATE W25N_Read_Output_Quad(W25Nxx_dev * dev, uint16_t columnAddress, uint8_t * buffer, uint32_t bufferSize);
 W25N_STATE W25N_Last_ECC_Failure_Page(W25Nxx_dev * dev, uint16_t * pageAddress);
+W25N_STATE W25N_Wait_Until_Not_Busy(W25Nxx_dev * dev, uint32_t timout_ms);
 
 #endif /* W25NXX_W25NXX_H_ */

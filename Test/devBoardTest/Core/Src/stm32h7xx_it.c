@@ -55,7 +55,7 @@
 /* USER CODE END 0 */
 
 /* External variables --------------------------------------------------------*/
-extern OSPI_HandleTypeDef hospi1;
+extern OSPI_HandleTypeDef hospi2;
 /* USER CODE BEGIN EV */
 
 /* USER CODE END EV */
@@ -199,17 +199,17 @@ void SysTick_Handler(void)
 /******************************************************************************/
 
 /**
-  * @brief This function handles OCTOSPI1 global interrupt.
+  * @brief This function handles OCTOSPI2 global interrupt.
   */
-void OCTOSPI1_IRQHandler(void)
+void OCTOSPI2_IRQHandler(void)
 {
-  /* USER CODE BEGIN OCTOSPI1_IRQn 0 */
+  /* USER CODE BEGIN OCTOSPI2_IRQn 0 */
 
-  /* USER CODE END OCTOSPI1_IRQn 0 */
-  HAL_OSPI_IRQHandler(&hospi1);
-  /* USER CODE BEGIN OCTOSPI1_IRQn 1 */
+  /* USER CODE END OCTOSPI2_IRQn 0 */
+  HAL_OSPI_IRQHandler(&hospi2);
+  /* USER CODE BEGIN OCTOSPI2_IRQn 1 */
 
-  /* USER CODE END OCTOSPI1_IRQn 1 */
+  /* USER CODE END OCTOSPI2_IRQn 1 */
 }
 
 /* USER CODE BEGIN 1 */

@@ -1,1 +1,2 @@
 ../Drivers/ICM20948/ICM20948.c:9:6:ICM20948_setup	24	static
+../Drivers/ICM20948/ICM20948.c:15:9:ICM20948_wakeup	40	static
