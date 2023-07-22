@@ -11,3 +11,6 @@ Test/devBoardTest/build/debug/build/CMakeFiles/cmake.check_cache
 *.map
 *.log
 
+*.prefs
+*.mk
+Test/devBoardTest/Debug/makefile
