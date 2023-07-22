@@ -34,6 +34,8 @@ extern "C" {
 
 extern OSPI_HandleTypeDef hospi1;
 
+extern OSPI_HandleTypeDef hospi2;
+
 /* USER CODE BEGIN Private defines */
 
 /*APS6408L-3OB PSRAM APmemory*/
@@ -50,6 +52,7 @@ extern OSPI_HandleTypeDef hospi1;
 /* USER CODE END Private defines */
 
 void MX_OCTOSPI1_Init(void);
+void MX_OCTOSPI2_Init(void);
 
 /* USER CODE BEGIN Prototypes */
 
