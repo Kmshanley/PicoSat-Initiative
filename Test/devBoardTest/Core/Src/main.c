@@ -102,7 +102,7 @@ int main(void)
   MX_I2C2_Init();
   MX_OCTOSPI1_Init();
   /* USER CODE BEGIN 2 */
-  log_info("Main Init");
+  log_info("Main Init Test Test");
   //EnableMemMapped();
   uint32_t id = 0;
   APS6408_Reset(&hospi1);
@@ -170,12 +170,16 @@ int main(void)
     /* USER CODE BEGIN 3 */
 	float voltage = 0;
 	float temperature_A = 0;
+	float current = 0;
+
+
 	if (TMP117_read_temperature(&temp_A, &temperature_A) == HAL_OK) {
 		log_info("Temperature A:%f", temperature_A);
 	}
 	else {
 		log_error("Unable to get temp A");
 	}
+
 
 	/*
 	if (INA236_get_bus_voltage(&INA18Bus, &voltage) == HAL_OK) {
@@ -184,10 +188,19 @@ int main(void)
 	else {
 	  log_error("Error getting 1.8v bus voltage");
 	}
-	*/
 
+	INA236_get_current(&INA18Bus,&current);
+	/*
+
+	/*
+	log_info("-----");
+	log_info(&current);
+	log_info("-----");
+    /*
+/*
 	mem_addr = (__IO uint8_t *)(OCTOSPI1_BASE + address);
 	/*Writing 1Mbyte (256Byte BUFFERSIZE x 4096 times) */
+/*
 	for (index2 = 0; index2 < EXTENDEDBUFFERSIZE/BUFFERSIZE; index2++)
 	{
 		for (index1 = 0; index1 < BUFFERSIZE; index1++)
@@ -198,8 +211,10 @@ int main(void)
 	}
 	/*----------------------------------------------------------------------*/
 	/* Reading Sequence of 1Mbyte */
+/*
 	mem_addr = (__IO uint8_t *)(OCTOSPI1_BASE + address);
 	/*Reading 1Mbyte (256Byte BUFFERSIZE x 4096 times)*/
+/*
 	for (index2 = 0; index2 < EXTENDEDBUFFERSIZE/BUFFERSIZE; index2++) {
 		for (index1 = 0; index1 < BUFFERSIZE; index1++)
 		{
@@ -207,13 +222,15 @@ int main(void)
 			{
 				/*if data read is corrupted we can toggle a led here: example blue led*/
 				//log_error("Data Corrupt");
+/*
 			}
 				mem_addr++;
 		}
 	}
 	/*if data read is correct we can toggle a led here: example green led*/
+/*
 	log_info("PSRAM data transfer success");
-
+*/
 	HAL_Delay(1000);
   }
   /* USER CODE END 3 */

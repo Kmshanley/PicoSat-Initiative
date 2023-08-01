@@ -1,2 +1,2 @@
-../Drivers/TMP117/TMP117.c:11:6:TMP117_setup	24	static
-../Drivers/TMP117/TMP117.c:17:9:TMP117_read_temperature	40	static
+../Drivers/TMP117/TMP117.c:13:6:TMP117_setup	24	static
+../Drivers/TMP117/TMP117.c:19:9:TMP117_read_temperature	56	static

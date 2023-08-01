@@ -34,11 +34,11 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Core/Inc/dcmi.h ../Core/Inc/main.h ../Core/Inc/i2c.h \
  ../Core/Inc/octospi.h ../Core/Inc/usart.h ../Core/Inc/gpio.h \
  ../Core/Inc/log.h ../Core/Inc/usart.h \
- D:/Code/devBoardTest/Drivers/INA236/INA236.h \
- D:/Code/devBoardTest/Drivers/PCA9543/PCA9543.h \
- D:/Code/devBoardTest/Drivers/TMP117/TMP117.h \
- D:/Code/devBoardTest/Drivers/APS6408/aps6408.h \
- D:/Code/devBoardTest/Drivers/APS6408/aps6408_conf.h
+ C:/Users/zhengj2/Desktop/picosat\ github/PicoSat-Initiative/Test/devBoardTest/Drivers/INA236/INA236.h \
+ C:/Users/zhengj2/Desktop/picosat\ github/PicoSat-Initiative/Test/devBoardTest/Drivers/PCA9543/PCA9543.h \
+ C:/Users/zhengj2/Desktop/picosat\ github/PicoSat-Initiative/Test/devBoardTest/Drivers/TMP117/TMP117.h \
+ C:/Users/zhengj2/Desktop/picosat\ github/PicoSat-Initiative/Test/devBoardTest/Drivers/APS6408/aps6408.h \
+ C:/Users/zhengj2/Desktop/picosat\ github/PicoSat-Initiative/Test/devBoardTest/Drivers/APS6408/aps6408_conf.h
 ../Core/Inc/main.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
 ../Core/Inc/stm32h7xx_hal_conf.h:
@@ -80,8 +80,8 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 ../Core/Inc/gpio.h:
 ../Core/Inc/log.h:
 ../Core/Inc/usart.h:
-D:/Code/devBoardTest/Drivers/INA236/INA236.h:
-D:/Code/devBoardTest/Drivers/PCA9543/PCA9543.h:
-D:/Code/devBoardTest/Drivers/TMP117/TMP117.h:
-D:/Code/devBoardTest/Drivers/APS6408/aps6408.h:
-D:/Code/devBoardTest/Drivers/APS6408/aps6408_conf.h:
+C:/Users/zhengj2/Desktop/picosat\ github/PicoSat-Initiative/Test/devBoardTest/Drivers/INA236/INA236.h:
+C:/Users/zhengj2/Desktop/picosat\ github/PicoSat-Initiative/Test/devBoardTest/Drivers/PCA9543/PCA9543.h:
+C:/Users/zhengj2/Desktop/picosat\ github/PicoSat-Initiative/Test/devBoardTest/Drivers/TMP117/TMP117.h:
+C:/Users/zhengj2/Desktop/picosat\ github/PicoSat-Initiative/Test/devBoardTest/Drivers/APS6408/aps6408.h:
+C:/Users/zhengj2/Desktop/picosat\ github/PicoSat-Initiative/Test/devBoardTest/Drivers/APS6408/aps6408_conf.h:

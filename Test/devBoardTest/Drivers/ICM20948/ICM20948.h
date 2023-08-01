@@ -4,7 +4,8 @@
  *  Created on: May 18, 2023
  *      Author: Kieran Shanley
  */
-#include "i2c.h"
+#include "i2c.h"y
+#include <stdbool.h>
 
 #ifndef ICM20948_ICM20948_H_
 #define ICM20948_ICM20948_H_
@@ -17,8 +18,8 @@
 #define ICM20948_REG_BANK_SEL						0x7F
 
 // USER BANK 0
-#define ICM20948_REG_B0_WHO_AM_I 0x00
-#define ICM20948_REG_B0_USER_CTRL 0x03
+#define ICM20948_REG_B0_WHO_AM_I 					0x00
+#define ICM20948_REG_B0_USER_CTRL 					0x03
 #define ICM20948_REG_B0_LP_CONFIG					0x05
 #define ICM20948_REG_B0_PWR_MGMT_1					0x06
 #define ICM20948_REG_B0_PWR_MGMT_2					0x07

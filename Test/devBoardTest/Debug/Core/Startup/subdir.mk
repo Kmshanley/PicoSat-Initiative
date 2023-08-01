@@ -16,7 +16,7 @@ S_DEPS += \
 
 # Each subdirectory must supply rules for building sources it contributes
 Core/Startup/%.o: ../Core/Startup/%.s Core/Startup/subdir.mk
-	arm-none-eabi-gcc -mcpu=cortex-m7 -g3 -DDEBUG -c -I"D:/Code/devBoardTest/Drivers/INA236" -I"D:/Code/devBoardTest/Drivers/PCA9543" -I"D:/Code/devBoardTest/Drivers/TMP117" -I"D:/Code/devBoardTest/Drivers/APS6408" -x assembler-with-cpp -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@" "$<"
+	arm-none-eabi-gcc -mcpu=cortex-m7 -g3 -DDEBUG -c -I"C:/Users/zhengj2/Desktop/picosat github/PicoSat-Initiative/Test/devBoardTest/Drivers/INA236" -I"C:/Users/zhengj2/Desktop/picosat github/PicoSat-Initiative/Test/devBoardTest/Drivers/PCA9543" -I"C:/Users/zhengj2/Desktop/picosat github/PicoSat-Initiative/Test/devBoardTest/Drivers/TMP117" -I"C:/Users/zhengj2/Desktop/picosat github/PicoSat-Initiative/Test/devBoardTest/Drivers/APS6408" -x assembler-with-cpp -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@" "$<"
 
 clean: clean-Core-2f-Startup
 

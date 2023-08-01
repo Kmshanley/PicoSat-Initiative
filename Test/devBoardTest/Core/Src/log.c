@@ -9,9 +9,10 @@ PUTCHAR_PROTOTYPE
 void log_format(const char* tag, const char* message, va_list args)
 {
 	uint32_t time = HAL_GetTick();
-	printf("%u [%s] ", (unsigned int)time, tag);
+	printf("%u [%s]", (unsigned int)time, tag);
 	vprintf(message, args);
-	printf("\n");
+	printf("\t\n\t\n");
+
 }
 
 void log_error(const char* message, ...)
