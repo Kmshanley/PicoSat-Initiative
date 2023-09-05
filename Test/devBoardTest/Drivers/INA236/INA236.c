@@ -83,3 +83,18 @@ int32_t INA236_get_bus_voltage(INA236_dev * dev, float * voltage)
 	}
 	return HAL_ERROR;
 }
+
+int32_t INA236_read_manuID(INA236_dev * dev, uint16_t * id)
+{
+	int16_t data = 0;
+	if(dev->bus->read(dev->addr, INA236_REG_SIZE, INA236_REG_MANU_ID, (uint8_t *)&data, sizeof(data)) == HAL_OK)
+	{
+		*id = (float)data;
+		return HAL_OK;
+	}
+	else {
+		*id = 0;
+		return HAL_ERROR;
+	}
+	return HAL_ERROR;
+}
