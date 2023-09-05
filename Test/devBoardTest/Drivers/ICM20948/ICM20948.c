@@ -12,7 +12,7 @@ void ICM20948_setup(ICM20948_dev * dev, I2C_Bus * bus, uint8_t addr)
 	dev->bus = bus;
 }
 
-int32_t ICM20948_wakeup(ICM20948_dev * dev) {
+uint32_t ICM20948_wakeup(ICM20948_dev * dev) {
 	uint8_t new_val = 0;
 	if(dev->bus->read(dev->addr, ICM20948_REG_B0_PWR_MGMT_1, 1, (uint8_t *)&new_val, 1) != HAL_OK)
 	{
@@ -26,91 +26,85 @@ int32_t ICM20948_wakeup(ICM20948_dev * dev) {
 
 }
 
-int32_t ICM20948_get_x_accel(ICM20948_dev * dev, float * accel) {
+uint32_t ICM20948_get_x_accel(ICM20948_dev * dev, float * accelx) {
 	uint8_t data = 0;
-	if	(dev->bus->read(dev->addr, ICM20948_REG_B0_ACCEL_XOUT_H, 1, (uint8_t *)&new_val, 1) == HAL_OK
-		&& dev->bus->read(dev->addr, ICM20948_REG_B0_ACCEL_XOUT_L, 1, (uint8_t *)&new_val, 1) == HAL_OK)
+	if	(dev->bus->read(dev->addr, ICM20948_REG_B0_ACCEL_XOUT_H, 1, (uint8_t *)&data, 2) == HAL_OK)
 	{
-		*accel = ACCEL_XOUT/Accel_Sensitivity;
+		*accelx = data/ACCEL_SENSITIVITY;
 		return HAL_OK;
 	}
 	else {
-		*accel = 0;
+		*accelx = 0;
 		return HAL_ERROR;
 	}
 	return HAL_ERROR;
 }
 
-int32_t ICM20948_get_y_accel(ICM20948_dev * dev, float * accel) {
+uint32_t ICM20948_get_y_accel(ICM20948_dev * dev, float * accely) {
 	uint8_t data = 0;
-	if	(dev->bus->read(dev->addr, ICM20948_REG_B0_ACCEL_YOUT_H, 1, (uint8_t *)&new_val, 1) == HAL_OK
-		&& dev->bus->read(dev->addr, ICM20948_REG_B0_ACCEL_YOUT_L, 1, (uint8_t *)&new_val, 1) == HAL_OK)
+	if	(dev->bus->read(dev->addr, ICM20948_REG_B0_ACCEL_YOUT_H, 1, (uint8_t *)&data, 2) == HAL_OK)
 	{
-		*accel = ACCEL_YOUT/Accel_Sensitivity;
+		*accely = data/Accel_Sensitivity;
 		return HAL_OK;
 	}
 	else {
-		*accel = 0;
+		*accely = 0;
 		return HAL_ERROR;
 	}
 	return HAL_ERROR;
 }
 
-int32_t ICM20948_get_z_accel(ICM20948_dev * dev, float * accel) {
+uint32_t ICM20948_get_z_accel(ICM20948_dev * dev, float * accelz) {
 	uint8_t data = 0;
-	if	(dev->bus->read(dev->addr, ICM20948_REG_B0_ACCEL_ZOUT_H, 1, (uint8_t *)&new_val, 1) == HAL_OK
-		&& dev->bus->read(dev->addr, ICM20948_REG_B0_ACCEL_ZOUT_L, 1, (uint8_t *)&new_val, 1) == HAL_OK)
+	if	(dev->bus->read(dev->addr, ICM20948_REG_B0_ACCEL_ZOUT_H, 1, (uint8_t *)&data, 2) == HAL_OK)
 	{
-		*accel = ACCEL_ZOUT/Accel_Sensitivity;
+		*accelz = data/Accel_Sensitivity;
 		return HAL_OK;
 	}
 	else {
-		*accel = 0;
+		*accelz = 0;
 		return HAL_ERROR;
 	}
 	return HAL_ERROR;
 }
 
-int32_t ICM20948_get_x_gyro(ICM20948_dev * dev, float * gyro) {
+uint32_t ICM20948_get_x_gyro(ICM20948_dev * dev, float * gyrox) {
 	uint8_t data = 0;
-	if	(dev->bus->read(dev->addr, ICM20948_REG_B0_GYRO_XOUT_H, 1, (uint8_t *)&new_val, 1) == HAL_OK
-		&& dev->bus->read(dev->addr, ICM20948_REG_B0_GYRO_XOUT_L, 1, (uint8_t *)&new_val, 1) == HAL_OK)
+	if	(dev->bus->read(dev->addr, ICM20948_REG_B0_GYRO_XOUT_H, 1, (uint8_t *)&data, 2) == HAL_OK)
 	{
-		*gyro = GYRO_XOUT/Gyro_Sensitivity;
+		*gyrox = data/Gyro_Sensitivity;
 		return HAL_OK;
 	}
 	else {
-		*gyro = 0;
+		*gyrox = 0;
 		return HAL_ERROR;
 	}
 	return HAL_ERROR;
 }
 
-int32_t ICM20948_get_y_gyro(ICM20948_dev * dev, float * gyro) {
+uint32_t ICM20948_get_y_gyro(ICM20948_dev * dev, float * gyroy) {
 	uint8_t data = 0;
-	if	(dev->bus->read(dev->addr, ICM20948_REG_B0_GYRO_YOUT_H, 1, (uint8_t *)&new_val, 1) == HAL_OK
-		&& dev->bus->read(dev->addr, ICM20948_REG_B0_GYRO_YOUT_L, 1, (uint8_t *)&new_val, 1) == HAL_OK)
+	if	(dev->bus->read(dev->addr, ICM20948_REG_B0_GYRO_YOUT_H, 1, (uint8_t *)&data, 2) == HAL_OK)
 	{
-		*gyro = GYRO_YOUT/Gyro_Sensitivity;
+		*gyroy = data/Gyro_Sensitivity;
 		return HAL_OK;
 	}
 	else {
-		*gyro = 0;
+		*gyroy = 0;
 		return HAL_ERROR;
 	}
 	return HAL_ERROR;
 }
 
-int32_t ICM20948_get_z_gyro(ICM20948_dev * dev, float * gyro) {
+uint32_t ICM20948_get_z_gyro(ICM20948_dev * dev, float * gyroz) {
 	uint8_t data = 0;
-	if	(dev->bus->read(dev->addr, ICM20948_REG_B0_GYRO_ZOUT_H, 1, (uint8_t *)&new_val, 1) == HAL_OK
-		&& dev->bus->read(dev->addr, ICM20948_REG_B0_GYRO_ZOUT_L, 1, (uint8_t *)&new_val, 1) == HAL_OK)
+	if	(dev->bus->read(dev->addr, ICM20948_REG_B0_GYRO_ZOUT_H, 1, (uint8_t *)&data, 2) == HAL_OK)
 	{
-		*gyro = GYRO_ZOUT/Gyro_Sensitivity;
+		*gyroz = data/Gyro_Sensitivity;
 		return HAL_OK;
 	}
 	else {
-		*gyro = 0;
+		*gyroz = 0;
 		return HAL_ERROR;
 	}
 	return HAL_ERROR;

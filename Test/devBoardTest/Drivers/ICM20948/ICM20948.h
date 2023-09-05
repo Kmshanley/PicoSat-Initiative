@@ -185,14 +185,14 @@ typedef struct {
 } ICM20948_dev;
 
 void ICM20948_setup(ICM20948_dev * dev, I2C_Bus * bus, uint8_t addr);
-int32_t ICM20948_init(ICM20948_dev * dev);
-int32_t ICM20948_reset(ICM20948_dev * dev);
-int32_t ICM20948_wakeup(ICM20948_dev * dev);
-int32_t ICM20948_get_x_accel(ICM20948_dev * dev, float * accel);
-int32_t ICM20948_get_y_accel(ICM20948_dev * dev, float * accel);
-int32_t ICM20948_get_z_accel(ICM20948_dev * dev, float * accel);
-int32_t ICM20948_get_x_gyro(ICM20948_dev * dev, float * gyro);
-int32_t ICM20948_get_y_gyro(ICM20948_dev * dev, float * gyro);
-int32_t ICM20948_get_z_gyro(ICM20948_dev * dev, float * gyro);
+uint32_t ICM20948_init(ICM20948_dev * dev);
+uint32_t ICM20948_reset(ICM20948_dev * dev);
+uint32_t ICM20948_wakeup(ICM20948_dev * dev);
+uint32_t ICM20948_get_x_accel(ICM20948_dev * dev, float * accel);
+uint32_t ICM20948_get_y_accel(ICM20948_dev * dev, float * accel);
+uint32_t ICM20948_get_z_accel(ICM20948_dev * dev, float * accel);
+uint32_t ICM20948_get_x_gyro(ICM20948_dev * dev, float * gyro);
+uint32_t ICM20948_get_y_gyro(ICM20948_dev * dev, float * gyro);
+uint32_t ICM20948_get_z_gyro(ICM20948_dev * dev, float * gyro);
 
 #endif /* ICM20948_ICM20948_H_ */
