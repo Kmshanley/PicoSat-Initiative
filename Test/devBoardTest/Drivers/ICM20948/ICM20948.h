@@ -188,11 +188,15 @@ void ICM20948_setup(ICM20948_dev * dev, I2C_Bus * bus, uint8_t addr);
 uint32_t ICM20948_init(ICM20948_dev * dev);
 uint32_t ICM20948_reset(ICM20948_dev * dev);
 uint32_t ICM20948_wakeup(ICM20948_dev * dev);
-uint32_t ICM20948_get_x_accel(ICM20948_dev * dev, float * accel);
-uint32_t ICM20948_get_y_accel(ICM20948_dev * dev, float * accel);
-uint32_t ICM20948_get_z_accel(ICM20948_dev * dev, float * accel);
-uint32_t ICM20948_get_x_gyro(ICM20948_dev * dev, float * gyro);
-uint32_t ICM20948_get_y_gyro(ICM20948_dev * dev, float * gyro);
-uint32_t ICM20948_get_z_gyro(ICM20948_dev * dev, float * gyro);
+uint32_t ICM20948_get_x_accel(ICM20948_dev * dev, float * accelx, uint16_t * accel_sens);
+uint32_t ICM20948_get_y_accel(ICM20948_dev * dev, float * accely, uint16_t * accel_sens);
+uint32_t ICM20948_get_z_accel(ICM20948_dev * dev, float * accelz, uint16_t * accel_sens);
+uint32_t ICM20948_get_x_gyro(ICM20948_dev * dev, float * gyrox, uint16_t * gyro_sens);
+uint32_t ICM20948_get_y_gyro(ICM20948_dev * dev, float * gyroy, uint16_t * gyro_sens);
+uint32_t ICM20948_get_z_gyro(ICM20948_dev * dev, float * gyroz, uint16_t * gyro_sens);
+void ICM20948_set_gyro_sens(ICM20948_dev * dev, uint16_t gyro_sens);
+uint32_t ICM20948_get_gyro_sens(ICM20948_dev * dev, uint16_t * gyro_sens);
+void ICM20948_set_accel_sens(ICM20948_dev * dev, uint16_t accel_sens);
+uint32_t ICM20948_get_accel_sens(ICM20948_dev * dev, uint16_t * accel_sens);
 
 #endif /* ICM20948_ICM20948_H_ */
