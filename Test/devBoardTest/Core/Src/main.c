@@ -35,6 +35,7 @@
 #include "aps6408.h"
 #include "aps6408_conf.h"
 #include "W25Nxx.h"
+#include "ICM20948.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -74,6 +75,7 @@ INA236_dev INA18Bus;
 TMP117_dev temp_A;
 PCA9543_dev i2c_switch;
 W25Nxx_dev W25N;
+ICM20948_dev ICM;
 /* USER CODE END 0 */
 
 /**
@@ -136,6 +138,7 @@ int main(void)
   INA236_setup(&INA18Bus, &i2c_bus_2, INA236_ADDR_1);
   PCA9543_setup(&i2c_switch, &i2c_bus_2, PCA9543_ADDR_1);
   TMP117_setup(&temp_A, &i2c_bus_2, TMP117_ADDR_1);
+  ICM20948_setup(&ICM, &i2c_bus_2, ICM20948_ADDR_1);
 
   if (PCA9543_set_channel(&i2c_switch, PCA9543_CHANNEL_1) != HAL_OK)
   {
@@ -155,8 +158,16 @@ int main(void)
   else {
 	  log_info("TMP117_A Ready");
   }
-
-  if (HAL_I2C_IsDeviceReady(&hi2c1, 0b11010000, 2, 1000) != HAL_OK)
+/*
+  if (HAL_I2C_IsDeviceReady(&hi2c1, INA236_ADDR_1, 2, 1000) != HAL_OK)
+  {
+	  log_error("Unable to communicate with INA236");
+  }
+  else {
+	  log_info("INA236 Ready");
+  }
+*/
+  if (HAL_I2C_IsDeviceReady(&hi2c1, ICM20948_ADDR_1 << 1, 2, 1000) != HAL_OK)
   {
 	  log_error("Unable to communicate with ICM-20948");
   }
@@ -188,7 +199,69 @@ int main(void)
 	}
 	*/
 
+	uint16_t accel_sens = 0;
+	if (ICM20948_get_accel_sens(&ICM, &accel_sens) == HAL_OK) {
+		log_info("Accel Sens:%f", accel_sens);
+	}
+	else {
+		log_error("Unable to get Accel Sens");
+	}
 
+	float accelx = 0;
+	if (ICM20948_get_x_accel(&ICM, &accelx, &accel_sens) == HAL_OK) {
+		log_info("X Acceleration:%f", accelx);
+	}
+	else {
+		log_error("Unable to get X Accel");
+	}
+
+	float accely = 0;
+	if (ICM20948_get_y_accel(&ICM, &accely, &accel_sens) == HAL_OK) {
+		log_info("Y Acceleration:%f", accely);
+	}
+	else {
+		log_error("Unable to get Y Accel");
+	}
+
+	float accelz = 0;
+	if (ICM20948_get_z_accel(&ICM, &accelz, &accel_sens) == HAL_OK) {
+		log_info("Z Acceleration:%f", accelz);
+	}
+	else {
+		log_error("Unable to get Z Accel");
+	}
+
+	uint16_t gyro_sens = 0;
+	if (ICM20948_get_gyro_sens(&ICM, &gyro_sens) == HAL_OK) {
+		log_info("Gyro Sens:%f", gyro_sens);
+	}
+	else {
+		log_error("Unable to get Gyro Sens");
+	}
+
+	float gyrox = 0;
+	if (ICM20948_get_x_gyro(&ICM, &gyrox, &gyro_sens) == HAL_OK) {
+		log_info("X Gyro:%f", gyrox);
+	}
+	else {
+		log_error("Unable to get X Gyro");
+	}
+
+	float gyroy = 0;
+	if (ICM20948_get_y_gyro(&ICM, &gyroy, &gyro_sens) == HAL_OK) {
+		log_info("Y Gyro:%f", gyroy);
+	}
+	else {
+		log_error("Unable to get Y Gyro");
+	}
+
+	float gyroz = 0;
+	if (ICM20948_get_z_gyro(&ICM, &gyroz, &gyro_sens) == HAL_OK) {
+		log_info("Z Gyro:%f", gyroz);
+	}
+	else {
+		log_error("Unable to get Z Gyro");
+	}
 
 	HAL_Delay(5000);
 
@@ -485,3 +558,4 @@ void assert_failed(uint8_t *file, uint32_t line)
   /* USER CODE END 6 */
 }
 #endif /* USE_FULL_ASSERT */
+

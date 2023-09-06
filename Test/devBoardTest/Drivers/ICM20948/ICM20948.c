@@ -10,6 +10,9 @@ void ICM20948_setup(ICM20948_dev * dev, I2C_Bus * bus, uint8_t addr)
 {
 	dev->addr = addr;
 	dev->bus = bus;
+	log_info("the bus is %f", bus);
+	log_info("the address is %d", addr);
+
 }
 
 uint32_t ICM20948_wakeup(ICM20948_dev * dev) {
