@@ -138,7 +138,7 @@ int main(void)
   INA236_setup(&INA18Bus, &i2c_bus_2, INA236_ADDR_1);
   PCA9543_setup(&i2c_switch, &i2c_bus_2, PCA9543_ADDR_1);
   TMP117_setup(&temp_A, &i2c_bus_2, TMP117_ADDR_1);
-  ICM20948_setup(&ICM, &i2c_bus_2, ICM20948_ADDR_1);
+  ICM20948_setup(&ICM, &i2c_bus_1, ICM20948_ADDR_1);
 
   if (PCA9543_set_channel(&i2c_switch, PCA9543_CHANNEL_1) != HAL_OK)
   {
@@ -175,6 +175,10 @@ int main(void)
 	  log_info("ICM-20948 Ready");
   }
 
+  ICM20948_set_accel_sens(&ICM, 1);
+  //ICM20948_set_gyro_sens(&ICM, 1);
+  //mainly using for testing but will be part of setup in future
+
   while (1)
   {
 
@@ -199,17 +203,18 @@ int main(void)
 	}
 	*/
 
-	uint16_t accel_sens = 0;
+	ICM20948_switch_bank(&ICM, 2);
+	uint8_t accel_sens;
 	if (ICM20948_get_accel_sens(&ICM, &accel_sens) == HAL_OK) {
-		log_info("Accel Sens:%f", accel_sens);
+		log_info("Accel Sens:%hu", accel_sens);
 	}
 	else {
 		log_error("Unable to get Accel Sens");
 	}
-
+	ICM20948_switch_bank(&ICM, 0);
 	float accelx = 0;
 	if (ICM20948_get_x_accel(&ICM, &accelx, &accel_sens) == HAL_OK) {
-		log_info("X Acceleration:%f", accelx);
+		log_info("X Acceleration:%hu", accelx);
 	}
 	else {
 		log_error("Unable to get X Accel");
@@ -217,7 +222,7 @@ int main(void)
 
 	float accely = 0;
 	if (ICM20948_get_y_accel(&ICM, &accely, &accel_sens) == HAL_OK) {
-		log_info("Y Acceleration:%f", accely);
+		log_info("Y Acceleration:%hu", accely);
 	}
 	else {
 		log_error("Unable to get Y Accel");
@@ -225,23 +230,23 @@ int main(void)
 
 	float accelz = 0;
 	if (ICM20948_get_z_accel(&ICM, &accelz, &accel_sens) == HAL_OK) {
-		log_info("Z Acceleration:%f", accelz);
+		log_info("Z Acceleration:%hu", accelz);
 	}
 	else {
 		log_error("Unable to get Z Accel");
 	}
-
-	uint16_t gyro_sens = 0;
+	ICM20948_switch_bank(&ICM, 2);
+	uint8_t gyro_sens = 0;
 	if (ICM20948_get_gyro_sens(&ICM, &gyro_sens) == HAL_OK) {
-		log_info("Gyro Sens:%f", gyro_sens);
+		log_info("Gyro Sens:%hu", gyro_sens);
 	}
 	else {
 		log_error("Unable to get Gyro Sens");
 	}
-
+	ICM20948_switch_bank(&ICM, 0);
 	float gyrox = 0;
 	if (ICM20948_get_x_gyro(&ICM, &gyrox, &gyro_sens) == HAL_OK) {
-		log_info("X Gyro:%f", gyrox);
+		log_info("X Gyro:%hu", gyrox);
 	}
 	else {
 		log_error("Unable to get X Gyro");
@@ -249,7 +254,7 @@ int main(void)
 
 	float gyroy = 0;
 	if (ICM20948_get_y_gyro(&ICM, &gyroy, &gyro_sens) == HAL_OK) {
-		log_info("Y Gyro:%f", gyroy);
+		log_info("Y Gyro:%hu", gyroy);
 	}
 	else {
 		log_error("Unable to get Y Gyro");
@@ -257,13 +262,13 @@ int main(void)
 
 	float gyroz = 0;
 	if (ICM20948_get_z_gyro(&ICM, &gyroz, &gyro_sens) == HAL_OK) {
-		log_info("Z Gyro:%f", gyroz);
+		log_info("Z Gyro:%hu", gyroz);
 	}
 	else {
 		log_error("Unable to get Z Gyro");
 	}
 
-	HAL_Delay(5000);
+	HAL_Delay(1000);
 
   }
   /* USER CODE END 3 */
