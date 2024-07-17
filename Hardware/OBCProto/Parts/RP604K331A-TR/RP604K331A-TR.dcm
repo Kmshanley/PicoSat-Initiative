@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RP604K331A-TR
+D Switching Voltage Regulators (IQ =0.3 uA)
+K
+F https://www.nisshinbo-microdevices.co.jp/en/pdf/datasheet/rp604-ea.pdf
+$ENDCMP
+#
+#End Doc Library

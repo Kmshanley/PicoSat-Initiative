@@ -1,0 +1,9 @@
+Manufacturer=Amphenol
+PartNumber=10051922-2410ELF
+PartCategory=Connector
+PackageCategory=Other
+PinCount=26
+Version=2.3
+Released=2023-05-16 07:10:18
+Downloaded=2023-07-21 23:53:25
+3D=Y

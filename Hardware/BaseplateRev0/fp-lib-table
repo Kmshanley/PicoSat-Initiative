@@ -1,0 +1,11 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "FTSH-105-01-L-DV")(type "KiCad")(uri "${KIPRJMOD}/Parts/FTSH-105-01-L-DV")(options "")(descr ""))
+  (lib (name "Graphics")(type "KiCad")(uri "${KIPRJMOD}/Parts/Graphics")(options "")(descr ""))
+  (lib (name "INA236AIDDFR")(type "KiCad")(uri "${KIPRJMOD}/Parts/INA236AIDDFR")(options "")(descr ""))
+  (lib (name "OPT4048DTSR")(type "KiCad")(uri "${KIPRJMOD}/Parts/OPT4048DTSR")(options "")(descr ""))
+  (lib (name "PMCB60XNEZ")(type "KiCad")(uri "${KIPRJMOD}/Parts/PMCB60XNEZ")(options "")(descr ""))
+  (lib (name "RP604K331A-TR")(type "KiCad")(uri "${KIPRJMOD}/Parts/RP604K331A-TR")(options "")(descr ""))
+  (lib (name "TMP117MAIDRVR")(type "KiCad")(uri "${KIPRJMOD}/Parts/TMP117MAIDRVR")(options "")(descr ""))
+  (lib (name "TPS62840DLCR")(type "KiCad")(uri "${KIPRJMOD}/Parts/TPS62840DLCR")(options "")(descr ""))
+)

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BFTC-415+
+D Ceramic Bandpass Filter 50 330 to 500 MHz
+K
+F https://www.minicircuits.com/pdfs/BFTC-415+.pdf
+$ENDCMP
+#
+#End Doc Library

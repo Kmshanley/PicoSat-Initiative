@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ICM-20948
+D IMUs - Inertial Measurement Units World's Lowest Power 9-Axis MEMS MotionTracking Device
+K
+F https://product.tdk.com/system/files/dam/doc/product/sensor/mortion-inertial/imu/data_sheet/ds-000189-icm-20948-v1.3.pdf
+$ENDCMP
+#
+#End Doc Library

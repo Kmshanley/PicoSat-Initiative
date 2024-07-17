@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STM32H723ZGT6
+D ARM Microcontrollers - MCU High-performance and DSP with DP-FPU, Arm Cortex-M7 MCU with 1 MByte Flash
+K
+F https://www.mouser.cn/datasheet/2/389/stm32h723zg-1893346.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 2337019-1
+#/2016189/287428/2.49/3/4/Connector
+DEF 2337019-1 J 0 30 Y Y 1 F N
+F0 "J" 1150 300 50 H V L CNN
+F1 "2337019-1" 1150 200 50 H V L CNN
+F2 "23370191" 1150 100 50 H I L CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7FC-2337019%7FA3%7Fpdf%7FEnglish%7FENG_CD_C-2337019_A3.pdf%7F2337019-1" 1150 0 50 H I L CNN
+F4 "RF Connectors / Coaxial Connectors MicroCoax receptacle UMCC Gen 1" 1150 -100 50 H I L CNN "Description"
+F5 "1.4" 1150 -200 50 H I L CNN "Height"
+F6 "571-2337019-1" 1150 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/2337019-1?qs=l4Gc20tDgJIuN7nS9rJkJw%3D%3D" 1150 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "TE Connectivity" 1150 -500 50 H I L CNN "Manufacturer_Name"
+F9 "2337019-1" 1150 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X SIGNAL 1 0 0 200 R 50 50 0 0 P
+X GND_1 2 1300 0 200 L 50 50 0 0 P
+X GND_2 3 1300 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=OPT4048DTSR
+PartCategory=Integrated Circuit
+PackageCategory=SO Transistor Flat Lead
+PinCount=8
+Version=1.1
+Released=2023-02-21 07:37:51
+Downloaded=2023-03-30 16:38:51
+3D=Y

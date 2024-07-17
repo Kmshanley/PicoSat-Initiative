@@ -1,0 +1,9 @@
+Manufacturer=Winbond
+PartNumber=W25N01GVZEIG TR
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline No-lead
+PinCount=9
+Version=1.1
+Released=2018-01-16 17:02:55
+Downloaded=2023-01-19 18:34:47
+3D=Y

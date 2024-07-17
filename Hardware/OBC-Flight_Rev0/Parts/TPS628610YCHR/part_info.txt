@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=TPS628610YCHR
+PartCategory=Integrated Circuit
+PackageCategory=BGA
+PinCount=8
+Version=1.1
+Released=2021-05-20 11:25:53
+Downloaded=2023-07-16 22:27:53
+3D=Y

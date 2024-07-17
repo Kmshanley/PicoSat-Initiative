@@ -1,0 +1,486 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "OV5640-A71A" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at -27.9517 49.5507 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "OV5640-A71A" (id 1) (at -27.956 -48.2877 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "BGA71C50P11X11_598X584X81" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "Omnivision" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "OV5640-A71A_0_0"
+      (rectangle (start -27.94 -45.72) (end 27.94 48.26)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin bidirectional line (at -30.48 -10.16 0) (length 2.54)
+        (name "VCMSINK"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 30.48 45.72 180.0) (length 2.54)
+        (name "AVDD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 30.48 -25.4 180.0) (length 2.54)
+        (name "AGND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 30.48 -2.54 180.0) (length 2.54)
+        (name "DGND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 30.48 38.1 180.0) (length 2.54)
+        (name "DVDD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 30.48 -27.94 180.0) (length 2.54)
+        (name "AGND@1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 30.48 -5.08 180.0) (length 2.54)
+        (name "DGND@1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -30.48 -12.7 0) (length 2.54)
+        (name "VCMSINK@1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -30.48 -33.02 0) (length 2.54)
+        (name "VCMGND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -30.48 -35.56 0) (length 2.54)
+        (name "VCMGND@1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 30.48 35.56 180.0) (length 2.54)
+        (name "DVDD@1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 30.48 -7.62 180.0) (length 2.54)
+        (name "DGND@2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 30.48 43.18 180.0) (length 2.54)
+        (name "AVDD@1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -30.48 33.02 0) (length 2.54)
+        (name "VN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 30.48 33.02 180.0) (length 2.54)
+        (name "DVDD@2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "C1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 30.48 -10.16 180.0) (length 2.54)
+        (name "DGND@3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "C2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -30.48 30.48 0) (length 2.54)
+        (name "VH"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "C10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 30.48 40.64 180.0) (length 2.54)
+        (name "AVDD@2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "C11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -30.48 35.56 0) (length 2.54)
+        (name "PWDN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "D1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 30.48 30.48 180.0) (length 2.54)
+        (name "DVDD@3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "D2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 30.48 -30.48 180.0) (length 2.54)
+        (name "AGND@2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "D11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -30.48 -17.78 0) (length 2.54)
+        (name "STROBE"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "E1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -30.48 45.72 0) (length 2.54)
+        (name "~{RESETB}"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "E2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -30.48 -5.08 0) (length 2.54)
+        (name "GPIO0"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "F1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -30.48 -27.94 0) (length 2.54)
+        (name "FREX"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "F2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 30.48 -40.64 180.0) (length 2.54)
+        (name "SGND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "F11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -30.48 -7.62 0) (length 2.54)
+        (name "GPIO1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "G1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 30.48 -33.02 180.0) (length 2.54)
+        (name "DOGND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "G2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -30.48 40.64 0) (length 2.54)
+        (name "SIOC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "G10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -30.48 38.1 0) (length 2.54)
+        (name "SIOD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "G11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -30.48 -22.86 0) (length 2.54)
+        (name "VSYNC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "H1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -30.48 -20.32 0) (length 2.54)
+        (name "HREF"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "H2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -30.48 12.7 0) (length 2.54)
+        (name "D3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "H10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input clock (at -30.48 43.18 0) (length 2.54)
+        (name "XVCLK"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "H11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional clock (at -30.48 -25.4 0) (length 2.54)
+        (name "PCLK"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "I1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 30.48 -12.7 180.0) (length 2.54)
+        (name "DGND@4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "I2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -30.48 5.08 0) (length 2.54)
+        (name "D6/MCN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "I8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -30.48 2.54 0) (length 2.54)
+        (name "D7/MCP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "I9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 30.48 5.08 180.0) (length 2.54)
+        (name "PVDD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "I10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 30.48 27.94 180.0) (length 2.54)
+        (name "DVDD@4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 30.48 25.4 180.0) (length 2.54)
+        (name "DVDD@5"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "K1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 30.48 20.32 180.0) (length 2.54)
+        (name "DOVDD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 30.48 17.78 180.0) (length 2.54)
+        (name "DOVDD@1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 30.48 -35.56 180.0) (length 2.54)
+        (name "DOGND@1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -30.48 15.24 0) (length 2.54)
+        (name "D2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 30.48 7.62 180.0) (length 2.54)
+        (name "EVDD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -30.48 0.0 0) (length 2.54)
+        (name "D8/MDN1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -30.48 -2.54 0) (length 2.54)
+        (name "D9/MDP1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 30.48 -38.1 180.0) (length 2.54)
+        (name "DOGND@2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 30.48 22.86 180.0) (length 2.54)
+        (name "DVDD@6"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "I11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 30.48 15.24 180.0) (length 2.54)
+        (name "DOVDD@2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "K2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 30.48 12.7 180.0) (length 2.54)
+        (name "DOVDD@3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "K3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -30.48 17.78 0) (length 2.54)
+        (name "D1/GPIO3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "K4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -30.48 20.32 0) (length 2.54)
+        (name "D0/GPIO2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "K5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -30.48 10.16 0) (length 2.54)
+        (name "D4/MDN0"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "K6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -30.48 7.62 0) (length 2.54)
+        (name "D5/MDP0"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "K7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 30.48 -17.78 180.0) (length 2.54)
+        (name "EGND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "K8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 30.48 -20.32 180.0) (length 2.54)
+        (name "EGND@1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "K11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

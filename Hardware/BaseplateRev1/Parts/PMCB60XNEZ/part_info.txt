@@ -1,0 +1,9 @@
+Manufacturer=Nexperia
+PartNumber=PMCB60XNEZ
+PartCategory=MOSFET (N-Channel)
+PackageCategory=Other
+PinCount=3
+Version=2.3
+Released=2022-09-04 09:34:12
+Downloaded=2023-06-05 19:34:13
+3D=Y

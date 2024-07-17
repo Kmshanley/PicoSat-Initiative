@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STM32H730VBT6
+D ARM Microcontrollers - MCU 16/32-BITS MICROS
+K
+F https://www.st.com/resource/en/datasheet/stm32h730ab.pdf
+$ENDCMP
+#
+#End Doc Library

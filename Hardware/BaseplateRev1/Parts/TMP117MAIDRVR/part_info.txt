@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=TMP117MAIDRVR
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline No-lead
+PinCount=7
+Version=1.1
+Released=2019-08-19 11:42:59
+Downloaded=2023-01-19 18:28:35
+3D=Y

@@ -1,0 +1,9 @@
+Manufacturer=CUI Devices
+PartNumber=TS04-66-75-BK-160-SMT
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=4
+Version=1.5
+Released=2021-12-17 14:55:15
+Downloaded=2023-02-07 00:58:27
+3D=Y

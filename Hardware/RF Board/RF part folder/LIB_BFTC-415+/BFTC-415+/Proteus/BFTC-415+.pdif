@@ -1,0 +1,134 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "BFTC-415+"
+   (description "Ceramic Bandpass Filter 50 330 to 500 MHz")
+   (family "ANA")
+   (package "BFTC415")
+   (attribute "Datasheet Link" "https://www.minicircuits.com/pdfs/BFTC-415+.pdf")
+   (attribute "Geometry.Height" "1.5mm")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Manufacturer_Name" "Mini-Circuits")
+   (attribute "Manufacturer_Part_Number" "BFTC-415+")
+   (gate
+    (symbol "BFTC-415+")
+    (pin "GROUND_1" 1 PS)
+    (pin "RF_IN" 2 PS)
+    (pin "GROUND_2" 3 PS)
+    (pin "GROUND_3" 4 PS)
+    (pin "RF_OUT" 5 PS)
+    (pin "GROUND_4" 6 PS)
+   )
+  )
+  (symbol "BFTC-415+"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1300 100) (pt 1300 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1500 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1500 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1500 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "BFTC415"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.905 1.905)
+      (pt 1.905 1.905)
+      (pt 1.905 -1.905)
+      (pt -1.905 -1.905)
+      (pt -1.905 1.905))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.905 3.335)
+      (pt 2.905 3.335)
+      (pt 2.905 -3.335)
+      (pt -2.905 -3.335)
+      (pt -2.905 3.335))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -1.905 0.6)
+      (pt -1.905 -0.6))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 1.905 0.6)
+      (pt 1.905 -0.6))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -1.27 -3)
+      (arc (pt -1.270 -3.000) (pt -1.320 -3.000) (pt -1.220 -2.900) (start 180.0) (sweep -90.0))
+      (pt -1.27 -2.9)
+      (arc (pt -1.270 -2.900) (pt -1.320 -3.000) (pt -1.220 -2.900) (start 180.0) (sweep 90.0))
+      (pt -1.27 -3)
+      (arc (pt -1.270 -3.000) (pt -1.320 -3.000) (pt -1.220 -2.900) (start 180.0) (sweep -90.0))
+      (pt -1.27 -2.9))))
+   (leg 1 (pt -1.270 -1.575) (padstack 0))
+   (leg 2 (pt 0.000 -1.575) (padstack 0))
+   (leg 3 (pt 1.270 -1.575) (padstack 0))
+   (leg 4 (pt 1.270 1.575) (padstack 0))
+   (leg 5 (pt 0.000 1.575) (padstack 0))
+   (leg 6 (pt -1.270 1.575) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.760 1.520 0 0 90.000))
+   )
+   (model "BFTC-415+.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

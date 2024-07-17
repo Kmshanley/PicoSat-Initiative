@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MIMXRT1176AVM8A
+D SOC i.MX ARM Cortex M7 289-Pin MAP-BGA Tray
+K
+F https://www.nxp.com/docs/en/data-sheet/IMXRT1170AEC.pdf
+$ENDCMP
+#
+#End Doc Library

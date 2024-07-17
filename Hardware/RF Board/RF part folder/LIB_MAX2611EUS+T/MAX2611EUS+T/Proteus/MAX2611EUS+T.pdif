@@ -1,0 +1,132 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "MAX2611EUS+T"
+   (description "RF Amplifier DC-to-Microwave, Low-Noise Amplifier")
+   (family "ANA")
+   (package "MAX2611EUST")
+   (attribute "Datasheet Link" "")
+   (attribute "Geometry.Height" "1.22mm")
+   (attribute "Mouser Part Number" "700-MAX2611EUS+T")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX2611EUS%2bT?qs=GxOUx7aO6nzhsdyrBwYTYA%3D%3D")
+   (attribute "Manufacturer_Name" "Analog Devices")
+   (attribute "Manufacturer_Part_Number" "MAX2611EUS+T")
+   (gate
+    (symbol "MAX2611EUS+T")
+    (pin "OUT" 1 PS)
+    (pin "GND_1" 2 PS)
+    (pin "IN" 3 PS)
+    (pin "GND_2" 4 PS)
+   )
+  )
+  (symbol "MAX2611EUS+T"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1000 100) (pt 1000 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "MAX2611EUST"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -0.695 -0.65)
+      (pt 2.225 -0.65)
+      (pt 2.225 0.65)
+      (pt -0.695 0.65)
+      (pt -0.695 -0.65))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.695 0.65)
+      (pt -0.695 0.65)
+      (pt -0.695 -0.65)
+      (pt -0.695 -0.65)
+      (pt -0.695 0.65))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 2.225 0.65)
+      (pt 2.225 0.65)
+      (pt 2.225 -0.65)
+      (pt 2.225 -0.65)
+      (pt 2.225 0.65))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.695 2.655)
+      (pt 3.225 2.655)
+      (pt 3.225 -3.8)
+      (pt -1.695 -3.8)
+      (pt -1.695 2.655))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 0 -2.8)
+      (arc (pt 0.000 -2.800) (pt -0.050 -2.800) (pt 0.050 -2.700) (start 180.0) (sweep -90.0))
+      (pt 0 -2.7)
+      (arc (pt 0.000 -2.700) (pt -0.050 -2.800) (pt 0.050 -2.700) (start 180.0) (sweep 90.0))
+      (pt 0 -2.8)
+      (arc (pt 0.000 -2.800) (pt -0.050 -2.800) (pt 0.050 -2.700) (start 180.0) (sweep -90.0))
+      (pt 0 -2.7))))
+   (leg 1 (pt 0.000 -1.000) (padstack 1))
+   (leg 2 (pt 1.725 -1.000) (padstack 0))
+   (leg 3 (pt 1.725 1.000) (padstack 0))
+   (leg 4 (pt -0.195 1.000) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.550 1.310 0 0 90.000))
+   )
+   (padstack 1
+    (plated false)
+    (pad (layer TCOP) (rectf 0.940 1.310 0 0 90.000))
+   )
+   (model "MAX2611EUS+T.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

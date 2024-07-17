@@ -1,0 +1,12 @@
+### Missing 3D models - created on 2023-03-28 18:47
+### Printed by checking_3D_models plugin
+Board file: C:\Users\Kieran Shanley\Desktop\Notes\Senior Spring\ENGR5000\Designs\ExternalFaces\ExternalFaces.kicad_pcb
+3D missing models written to:
+C:\Users\Kieran Shanley\Desktop\Notes\Senior Spring\ENGR5000\Designs\ExternalFaces\ExternalFaces_missing3Dmodels.txt
+-------
+('IC1', 'C:\\Users\\Kieran Shanley\\Desktop\\Notes\\Senior Spring\\ENGR5000\\Designs\\ExternalFaces\\TMP117MAIDRVR.stp')
+('IC3', 'C:\\Users\\Kieran Shanley\\Desktop\\Notes\\Senior Spring\\ENGR5000\\Designs\\ExternalFaces\\VEML3328.stp')
+('IC2', 'C:\\Users\\Kieran Shanley\\Desktop\\Notes\\Senior Spring\\ENGR5000\\Designs\\ExternalFaces\\DRV8212PDSGR.stp')
+-------
+NUM of 3D missing models:3
+checked extensions ['.stp', '.step', '.stpZ']

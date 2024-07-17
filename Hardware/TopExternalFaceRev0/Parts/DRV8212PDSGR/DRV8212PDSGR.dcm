@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DRV8212PDSGR
+D Motor / Motion / Ignition Controllers & Drivers 12-V, 3-A H-bridge m otor driver, PWM co
+K
+F https://www.ti.com/jp/lit/ds/symlink/drv8212p.pdf?ts=1646210444424&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252Fja-jp%252FDRV8212P
+$ENDCMP
+#
+#End Doc Library

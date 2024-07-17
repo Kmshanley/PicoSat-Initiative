@@ -1,0 +1,374 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "MT9P006I12STCU" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at -15.2699 43.2647 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "MT9P006I12STCU" (id 1) (at -15.2459 -48.2786 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "LCC70P1000X1000X125-48N" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "Aptina Imaging" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "MT9P006I12STCU_0_0"
+      (polyline
+        (pts (xy 15.24 40.64) (xy 15.24 -43.18)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 15.24 -43.18) (xy -15.24 -43.18)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -15.24 -43.18) (xy -15.24 40.64)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -15.24 40.64) (xy -2.54 40.64)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 40.64) (xy 15.24 40.64)) (stroke (width 0.254))
+      )
+      (arc (start -2.54 40.64) (mid 0.0 38.1) (end 2.54 40.64)
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (pin input line (at -20.32 20.32 0) (length 5.08)
+        (name "~{RESET}"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "16"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input clock (at -20.32 17.78 0) (length 5.08)
+        (name "EXTCLK"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "31"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input clock (at -20.32 15.24 0) (length 5.08)
+        (name "SCLK"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -20.32 12.7 0) (length 5.08)
+        (name "OE"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "17"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -20.32 10.16 0) (length 5.08)
+        (name "~{STANDBY}"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "14"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -20.32 7.62 0) (length 5.08)
+        (name "TRIGGER"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "15"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -20.32 5.08 0) (length 5.08)
+        (name "SADDR"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "13"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 0.0 0) (length 5.08)
+        (name "SDATA"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output clock (at 20.32 20.32 180.0) (length 5.08)
+        (name "PIXCLK"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "32"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 20.32 17.78 180.0) (length 5.08)
+        (name "FRAME_VALID"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 20.32 15.24 180.0) (length 5.08)
+        (name "LINE_VALID"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 20.32 12.7 180.0) (length 5.08)
+        (name "STROBE"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 20.32 7.62 180.0) (length 5.08)
+        (name "DOUT0"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "33"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 20.32 5.08 180.0) (length 5.08)
+        (name "DOUT1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "34"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 20.32 2.54 180.0) (length 5.08)
+        (name "DOUT2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "35"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 20.32 0.0 180.0) (length 5.08)
+        (name "DOUT3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "36"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 20.32 -2.54 180.0) (length 5.08)
+        (name "DOUT4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "37"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 20.32 -5.08 180.0) (length 5.08)
+        (name "DOUT5"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "38"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 20.32 -7.62 180.0) (length 5.08)
+        (name "DOUT6"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "40"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 20.32 -10.16 180.0) (length 5.08)
+        (name "DOUT7"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "41"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 20.32 -12.7 180.0) (length 5.08)
+        (name "DOUT8"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "42"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 20.32 -15.24 180.0) (length 5.08)
+        (name "DOUT9"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "43"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 20.32 -17.78 180.0) (length 5.08)
+        (name "DOUT10"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "44"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 20.32 -20.32 180.0) (length 5.08)
+        (name "DOUT11"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "45"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 38.1 180.0) (length 5.08)
+        (name "VDD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "12"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 38.1 180.0) (length 5.08)
+        (name "VDD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "47"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 35.56 180.0) (length 5.08)
+        (name "VDD_IO"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 35.56 180.0) (length 5.08)
+        (name "VDD_IO"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "39"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 20.32 -40.64 180.0) (length 5.08)
+        (name "DGND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 20.32 -40.64 180.0) (length 5.08)
+        (name "DGND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "26"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 20.32 -40.64 180.0) (length 5.08)
+        (name "DGND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "46"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 30.48 180.0) (length 5.08)
+        (name "VAA"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "23"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 30.48 180.0) (length 5.08)
+        (name "VAA"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "24"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 27.94 180.0) (length 5.08)
+        (name "VAA_PIX"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 27.94 180.0) (length 5.08)
+        (name "VAA_PIX"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "48"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 20.32 -38.1 180.0) (length 5.08)
+        (name "AGND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 20.32 -38.1 180.0) (length 5.08)
+        (name "AGND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "22"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 33.02 180.0) (length 5.08)
+        (name "VDD_PLL"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "25"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 20.32 -27.94 180.0) (length 5.08)
+        (name "TEST"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 20.32 -27.94 180.0) (length 5.08)
+        (name "TEST"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "20"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 20.32 -27.94 180.0) (length 5.08)
+        (name "TEST"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "21"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 20.32 -30.48 180.0) (length 5.08)
+        (name "RSVD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

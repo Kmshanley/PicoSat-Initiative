@@ -1,0 +1,9 @@
+Manufacturer=TAIYO YUDEN
+PartNumber=NRS4012T150MDGJ
+PartCategory=Inductor
+PackageCategory=Other
+PinCount=2
+Version=1.1
+Released=2021-06-22 08:55:54
+Downloaded=2023-04-11 16:33:37
+3D=Y

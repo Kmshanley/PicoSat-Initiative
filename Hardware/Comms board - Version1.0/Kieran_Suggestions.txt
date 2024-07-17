@@ -1,0 +1,7 @@
+- VBAT_ANA, VBAT_RF, VR_ANA, VR_DIG are all not connected to 3.3v are they supposed to be?
+- Include GND and VCC on your external connector
+- I would suggest adding a aditional screw terminal power port too
+- You will need to pick standard size components for your LC butterworth filter
+- Why is there a DC blocking cap on the TCXO VDD and enable pin?
+- The block with BGA420 is unlabeled
+- Remember to do BOM consolidation whenever possible!

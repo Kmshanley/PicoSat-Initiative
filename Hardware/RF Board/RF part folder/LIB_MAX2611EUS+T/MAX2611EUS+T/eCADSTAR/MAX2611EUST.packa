@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "MAX2611EUS+T"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-06-17-09:11:46)
+    (mountForm default
+        (footprintRef "MAX2611EUST")
+        (spec "System")
+    )
+)

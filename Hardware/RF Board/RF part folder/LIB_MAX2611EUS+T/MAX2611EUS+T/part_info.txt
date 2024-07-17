@@ -1,0 +1,9 @@
+Manufacturer=Analog Devices
+PartNumber=MAX2611EUS+T
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=4
+Version=1.2
+Released=2020-06-17 09:11:46
+Downloaded=2023-06-16 17:58:41
+3D=Y

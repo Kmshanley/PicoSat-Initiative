@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MAX2611EUS_T'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Analog Devices", "MAX2611EUS+T" (!) = "", "MAX2611EUST", "Other", "700-MAX2611EUS+T", "https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX2611EUS%2bT?qs=GxOUx7aO6nzhsdyrBwYTYA%3D%3D", "RF Amplifier DC-to-Microwave, Low-Noise Amplifier", "", "1.22 mm"
+END_PART
+
+END.

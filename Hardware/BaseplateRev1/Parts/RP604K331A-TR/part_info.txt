@@ -1,0 +1,9 @@
+Manufacturer=Nisshinbo
+PartNumber=RP604K331A-TR
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline No-lead
+PinCount=13
+Version=1.1
+Released=2022-09-14 04:56:02
+Downloaded=2023-01-19 18:55:40
+3D=Y

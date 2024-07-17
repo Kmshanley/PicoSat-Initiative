@@ -1,0 +1,9 @@
+Manufacturer=NXP
+PartNumber=MIMXRT1176AVM8A
+PartCategory=Integrated Circuit
+PackageCategory=BGA
+PinCount=289
+Version=4.1
+Released=2021-01-02 11:13:17
+Downloaded=2023-06-01 22:02:01
+3D=Y

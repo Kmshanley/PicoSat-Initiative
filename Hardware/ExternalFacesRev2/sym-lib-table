@@ -1,0 +1,12 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "KXOB121K04TF")(type "KiCad")(uri "${KIPRJMOD}/Parts/KXOB121K04TF/KXOB121K04TF.kicad_sym")(options "")(descr ""))
+  (lib (name "TMP117MAIDRVR")(type "Legacy")(uri "${KIPRJMOD}/Parts/TMP117MAIDRVR/TMP117MAIDRVR.lib")(options "")(descr ""))
+  (lib (name "VEML3328")(type "Legacy")(uri "${KIPRJMOD}/Parts/VEML3328/VEML3328.lib")(options "")(descr ""))
+  (lib (name "DRV8212PDSGR")(type "Legacy")(uri "${KIPRJMOD}/Parts/DRV8212PDSGR/DRV8212PDSGR.lib")(options "")(descr ""))
+  (lib (name "OPT4048DTSR")(type "Legacy")(uri "${KIPRJMOD}/Parts/OPT4048DTSR/OPT4048DTSR.lib")(options "")(descr ""))
+  (lib (name "SPV1040T")(type "Legacy")(uri "${KIPRJMOD}/Parts/SPV1040T/SPV1040T.lib")(options "")(descr ""))
+  (lib (name "NRS4012T150MDGJ")(type "Legacy")(uri "${KIPRJMOD}/Parts/NRS4012T150MDGJ/NRS4012T150MDGJ.lib")(options "")(descr ""))
+  (lib (name "SFMH-105-02-L-D-WT")(type "KiCad")(uri "${KIPRJMOD}/Parts/SFMH-105-02-L-D-WT/SFMH-105-02-L-D-WT.kicad_sym")(options "")(descr ""))
+  (lib (name "FTSH-105-XX-X-DV")(type "KiCad")(uri "${KIPRJMOD}/Parts/FTSH-105-01-L-DV/FTSH-105-XX-X-DV.kicad_sym")(options "")(descr ""))
+)

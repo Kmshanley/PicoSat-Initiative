@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS628610YCHR
+D Switching Voltage Regulators 1.8-V to 5.5-V input, tiny, 1-A ultra-low Iq step-down converter with I2C/VSEL interface 8-DSBGA -40 to 125
+K
+F https://www.ti.com/lit/ds/symlink/tps62861.pdf?ts=1621509206781&ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fdocs%252Funiversalsearch.tsp%253FsearchTerm%253DTPS628610YCHR%2526nr%253D6
+$ENDCMP
+#
+#End Doc Library

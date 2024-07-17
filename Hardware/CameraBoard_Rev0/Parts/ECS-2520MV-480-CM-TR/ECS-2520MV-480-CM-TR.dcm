@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ECS-2520MV-480-CM-TR
+D Standard Clock Oscillators 48MHz, Multi-Volt 1.6 3.6 V, STAB +/-25 ppm, -20 +70 C, 4-SMD 2.5 x 2.0 mm RoHS
+K
+F https://ecsxtal.com/store/pdf/ECS-2520MV.pdf
+$ENDCMP
+#
+#End Doc Library

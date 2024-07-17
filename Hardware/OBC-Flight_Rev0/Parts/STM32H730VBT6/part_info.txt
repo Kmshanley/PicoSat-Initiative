@@ -1,0 +1,9 @@
+Manufacturer=STMicroelectronics
+PartNumber=STM32H730VBT6
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat Packages
+PinCount=100
+Version=1.1
+Released=2021-02-05 06:27:43
+Downloaded=2023-03-31 16:12:09
+3D=Y

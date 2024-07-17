@@ -1,0 +1,9 @@
+Manufacturer=SAMTEC
+PartNumber=SS4-20-3.00-L-D-K-TR
+PartCategory=Connector
+PackageCategory=Other
+PinCount=40
+Version=7.4
+Released=2018-10-29 13:41:32
+Downloaded=2023-06-17 04:17:53
+3D=Y

@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=TLV76701DRVR
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline No-lead
+PinCount=7
+Version=1.1
+Released=2020-10-15 05:23:37
+Downloaded=2023-07-16 20:38:01
+3D=Y

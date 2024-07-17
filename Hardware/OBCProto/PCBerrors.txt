@@ -1,0 +1,21 @@
+- Push button schematics are wrong
+- Both INA236's have the same address
+- PC9543A does not work with 1.8v bus when it is powered with 3.3v
+	Replace with PCA9846
+- Switch vias to larger size to avoid upcharge
+- Switch to LGA footprint for fuel guage, cause the BGA one is too difficult to solder
+	Replace with MAX17260, will need current sense resistor
+- APS604L one data line was unconnected
+- 1.8v I2C busses need lower value resistors
+- Connect PDR_ON to VDD to enable voltage supervisor
+- Proper design for crystal oscilators
+- Connect BOOT0
+- Length match OCTOSPI traces
+	33 ohm resistors in series with OSPI data lines?
+- Length match QSPI traces
+- Length match DCMI traces
+- SDA and SCL should be roughly the same length
+- ESD protection for STLink
+- Look into VBAT backup domain for RTC
+- Efuse for overcurrent protection
+- External Watchdog?

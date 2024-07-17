@@ -1,0 +1,9 @@
+Manufacturer=NXP
+PartNumber=PCA9846PWJ
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=16
+Version=1.1
+Released=2021-04-27 04:12:25
+Downloaded=2023-06-17 06:03:31
+3D=Y

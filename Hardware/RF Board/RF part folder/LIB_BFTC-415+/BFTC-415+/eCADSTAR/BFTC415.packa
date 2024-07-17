@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "BFTC-415+"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-05-26-04:14:30)
+    (mountForm default
+        (footprintRef "BFTC415")
+        (spec "System")
+    )
+)

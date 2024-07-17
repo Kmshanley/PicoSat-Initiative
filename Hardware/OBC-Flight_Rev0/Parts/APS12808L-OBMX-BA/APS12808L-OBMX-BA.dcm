@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP APS12808L-OBMX-BA
+D DRAM IoT RAM 128Mb OPI (x8) DDR 200MHz, 1.8V, Ext. Temp., BGA24
+K
+F https://www.mouser.bg/datasheet/2/1127/APM_PSRAM_OPI_Xccela_APS12808L_OBMx_v3_0a_PKG-1954889.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model TPS628610YCHR
+#/13042587/287428/2.50/8/3/Integrated Circuit
+DEF TPS628610YCHR IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "TPS628610YCHR" 950 200 50 H V L CNN
+F2 "BGA8C35P2X4_66X136X40" 950 100 50 H I L CNN
+F3 "https://www.ti.com/lit/ds/symlink/tps62861.pdf?ts=1621509206781&ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fdocs%252Funiversalsearch.tsp%253FsearchTerm%253DTPS628610YCHR%2526nr%253D6" 950 0 50 H I L CNN
+F4 "Switching Voltage Regulators 1.8-V to 5.5-V input, tiny, 1-A ultra-low Iq step-down converter with I2C/VSEL interface 8-DSBGA -40 to 125" 950 -100 50 H I L CNN "Description"
+F5 "0.4" 950 -200 50 H I L CNN "Height"
+F6 "595-TPS628610YCHR" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS628610YCHR?qs=hWgE7mdIu5RMknWMDeLEGw%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TPS628610YCHR" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X SCL A1 0 0 200 R 50 50 0 0 P
+X SDA A2 0 -100 200 R 50 50 0 0 P
+X EN B1 0 -200 200 R 50 50 0 0 P
+X VSEL B2 0 -300 200 R 50 50 0 0 P
+X SW C1 1100 0 200 L 50 50 0 0 P
+X VIN C2 1100 -100 200 L 50 50 0 0 P
+X VOS D1 1100 -200 200 L 50 50 0 0 P
+X GND D2 1100 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

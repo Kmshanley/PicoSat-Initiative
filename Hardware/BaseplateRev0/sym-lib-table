@@ -1,0 +1,9 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "FTSH-105-XX-X-DV")(type "KiCad")(uri "${KIPRJMOD}/Parts/FTSH-105-01-L-DV/FTSH-105-XX-X-DV.kicad_sym")(options "")(descr ""))
+  (lib (name "INA236AIDDFR")(type "KiCad")(uri "${KIPRJMOD}/Parts/INA236AIDDFR/INA236AIDDFR.kicad_sym")(options "")(descr ""))
+  (lib (name "PMCB60XNEZ")(type "KiCad")(uri "${KIPRJMOD}/Parts/PMCB60XNEZ/PMCB60XNEZ.kicad_sym")(options "")(descr ""))
+  (lib (name "RP604K331A-TR")(type "Legacy")(uri "${KIPRJMOD}/Parts/RP604K331A-TR/RP604K331A-TR.lib")(options "")(descr ""))
+  (lib (name "TMP117MAIDRVR")(type "Legacy")(uri "${KIPRJMOD}/Parts/TMP117MAIDRVR/TMP117MAIDRVR.lib")(options "")(descr ""))
+  (lib (name "TPS62840DLCR")(type "KiCad")(uri "${KIPRJMOD}/Parts/TPS62840DLCR/TPS62840DLCR.kicad_sym")(options "")(descr ""))
+)

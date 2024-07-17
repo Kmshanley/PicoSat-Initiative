@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STM32H735AGI6
+D ARM Microcontrollers - MCU 16/32-BITS MICROS
+K
+F https://www.mouser.fr/datasheet/2/389/dm00701023-2042184.pdf
+$ENDCMP
+#
+#End Doc Library

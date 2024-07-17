@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ESDALC6V1-5M6
+D STMicroelectronics ESDALC6V1-5M6 Quint Uni-Directional TVS Diode, 30W peak, 6-Pin uQFN
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-45/DSA-19322.pdf
+$ENDCMP
+#
+#End Doc Library

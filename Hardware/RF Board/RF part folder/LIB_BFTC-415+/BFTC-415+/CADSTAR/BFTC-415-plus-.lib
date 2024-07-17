@@ -1,0 +1,16 @@
+.BFTC-415-plus- :1 ;Ceramic Bandpass Filter 50 330 to 500 MHz
+BFTC415
+*STM FL
+*NGS
+*PLB 1="GROUND_1" 2="RF IN" 3="GROUND_2" 4="GROUND_3" 5="RF OUT" 6="GROUND_4"
+*MXP 6
+*DFN BFTC-415-plus-
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Manufacturer_Name (Mini-Circuits)
+~!Manufacturer_Part_Number (BFTC-415+)
+~!Link Datasheet (https://www.minicircuits.com/pdfs/BFTC-415+.pdf)
+~!Height (1.5mm)
+~!3D_Model (BFTC-415+)
+BFTC-415-plus-
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 

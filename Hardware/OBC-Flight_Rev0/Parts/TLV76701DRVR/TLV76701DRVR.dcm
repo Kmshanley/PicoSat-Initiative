@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TLV76701DRVR
+D Adjustable and fixed 1-A 16-V positive-voltage low-dropout (LDO) linear regulator
+K
+F http://www.ti.com/lit/gpn/TLV767
+$ENDCMP
+#
+#End Doc Library

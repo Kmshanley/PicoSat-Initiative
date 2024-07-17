@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP INA219BID
+D 26V, Bi-Directional, High-Side, I2C Out Current/Power Monitor
+K
+F http://www.ti.com/lit/gpn/INA219
+$ENDCMP
+#
+#End Doc Library

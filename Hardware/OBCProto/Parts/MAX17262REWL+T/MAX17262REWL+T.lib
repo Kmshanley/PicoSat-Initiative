@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model MAX17262REWL+T
+#/1653881/287428/2.49/9/3/Integrated Circuit
+DEF MAX17262REWL+T IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "MAX17262REWL+T" 950 200 50 H V L CNN
+F2 "BGA9C40P3X3_147X145X69" 950 100 50 H I L CNN
+F3 "https://datasheets.maximintegrated.com/en/ds/MAX17262.pdf" 950 0 50 H I L CNN
+F4 "Battery Management 5.2 A 1-Cell Fuel Gauge with ModelGauge m5 EZ and Internal CurrentSensing" 950 -100 50 H I L CNN "Description"
+F5 "0.69" 950 -200 50 H I L CNN "Height"
+F6 "700-MAX17262REWL+T" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX17262REWL%2bT?qs=byeeYqUIh0N%2Fwt%2FPHEGinQ%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Analog Devices" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "MAX17262REWL+T" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X TH A1 0 0 200 R 50 50 0 0 P
+X BATT A2 0 -100 200 R 50 50 0 0 P
+X NC A3 0 -200 200 R 50 50 0 0 N
+X SCL B1 0 -300 200 R 50 50 0 0 P
+X ALRT B2 0 -400 200 R 50 50 0 0 P
+X SYS B3 1100 0 200 L 50 50 0 0 P
+X SDA C1 1100 -100 200 L 50 50 0 0 P
+X REG C2 1100 -200 200 L 50 50 0 0 P
+X GND C3 1100 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

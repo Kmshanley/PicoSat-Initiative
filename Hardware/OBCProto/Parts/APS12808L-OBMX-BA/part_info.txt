@@ -1,0 +1,9 @@
+Manufacturer=AP Memory
+PartNumber=APS12808L-OBMX-BA
+PartCategory=Integrated Circuit
+PackageCategory=BGA
+PinCount=24
+Version=1.1
+Released=2022-05-16 15:21:05
+Downloaded=2023-01-19 18:31:27
+3D=Y

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PCA9846PWJ
+D NXP - PCA9846PWJ - Bidirectional Switch, 4:1, 2 Circuits, 24 ohm, I2C, 0.8V to 3.6V, TSSOP-16
+K
+F http://www.nxp.com/docs/en/data-sheet/PCA9846.pdf
+$ENDCMP
+#
+#End Doc Library

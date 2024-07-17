@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MDT350M01401VT
+D PCIe M.2 Connectors, Storage and Server Connector, P=0.5mm, Vertical,Key M,30u" Au Plating
+K
+F https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/mdt350x01401vt.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TMP117MAIDRVR
+D +/-0.1C Accurate Digital Temperature Sensor with Integrated NV Memory
+K
+F http://www.ti.com/lit/gpn/tmp117
+$ENDCMP
+#
+#End Doc Library

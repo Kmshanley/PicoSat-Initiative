@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model OPT4048DTSR
+#/17451462/287428/2.50/8/3/Integrated Circuit
+DEF OPT4048DTSR IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "OPT4048DTSR" 950 200 50 H V L CNN
+F2 "SOTFL50P190X60-8N" 950 100 50 H I L CNN
+F3 "https://www.ti.com/lit/ds/symlink/opt4048.pdf?ts=1676909119066&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FOPT4048%252Fpart-details%252FOPT4048DTSR%253FHQS%253Docb-tistore-invf-invftransact-invf-store-octopart-wwe%2526login-check%253Dtrue" 950 0 50 H I L CNN
+F4 "Ambient Light Sensors High-speed high-precision tristimulus XYZ color sensor 8-SOT-5X3 -40 to 85" 950 -100 50 H I L CNN "Description"
+F5 "0.6" 950 -200 50 H I L CNN "Height"
+F6 "595-OPT4048DTSR" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/OPT4048DTSR?qs=rQFj71Wb1eUko9TNzYxksQ%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "OPT4048DTSR" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X VDD 1 0 0 200 R 50 50 0 0 P
+X ADDR 2 0 -100 200 R 50 50 0 0 P
+X NC_1 3 0 -200 200 R 50 50 0 0 P
+X GND 4 0 -300 200 R 50 50 0 0 P
+X SCL 5 1100 0 200 L 50 50 0 0 P
+X NC_2 6 1100 -100 200 L 50 50 0 0 P
+X INT 7 1100 -200 200 L 50 50 0 0 P
+X SDA 8 1100 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

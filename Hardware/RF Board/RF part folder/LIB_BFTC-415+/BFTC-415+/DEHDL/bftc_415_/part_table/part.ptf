@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'BFTC_415_'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Mini-Circuits", "BFTC-415+" (!) = "", "BFTC415", "Other", "", "", "Ceramic Bandpass Filter 50 330 to 500 MHz", "https://www.minicircuits.com/pdfs/BFTC-415+.pdf", "1.5 mm"
+END_PART
+
+END.

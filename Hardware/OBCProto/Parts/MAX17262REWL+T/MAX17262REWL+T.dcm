@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX17262REWL+T
+D Battery Management 5.2 A 1-Cell Fuel Gauge with ModelGauge m5 EZ and Internal CurrentSensing
+K
+F https://datasheets.maximintegrated.com/en/ds/MAX17262.pdf
+$ENDCMP
+#
+#End Doc Library

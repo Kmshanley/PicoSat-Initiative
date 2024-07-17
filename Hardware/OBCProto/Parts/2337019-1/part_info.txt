@@ -1,0 +1,9 @@
+Manufacturer=TE Connectivity
+PartNumber=2337019-1
+PartCategory=Connector
+PackageCategory=Other
+PinCount=3
+Version=1.1
+Released=2019-05-23 17:20:59
+Downloaded=2023-02-22 21:31:20
+3D=Y

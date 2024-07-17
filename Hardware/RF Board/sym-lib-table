@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "RF AMP")(type "KiCad")(uri "${KIPRJMOD}/RF AMP.kicad_sym")(options "")(descr ""))
+  (lib (name "BANDPASS")(type "KiCad")(uri "C:/Users/Tmarnell/Downloads/RF part folder/LIB_BFTC-415+/BFTC-415+/KiCad/BFTC-415+.kicad_sym")(options "")(descr ""))
+  (lib (name "LNA")(type "KiCad")(uri "C:/Users/Tmarnell/Downloads/RF part folder/LIB_MAX2611EUS+T/MAX2611EUS+T/KiCad/MAX2611EUS+T.kicad_sym")(options "")(descr ""))
+  (lib (name "SX")(type "KiCad")(uri "C:/Users/Tmarnell/Downloads/RF part folder/SX1278/SX1278.kicad_sym")(options "")(descr ""))
+)

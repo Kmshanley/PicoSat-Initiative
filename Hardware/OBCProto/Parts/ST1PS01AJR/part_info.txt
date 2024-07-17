@@ -1,0 +1,9 @@
+Manufacturer=STMicroelectronics
+PartNumber=ST1PS01AJR
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=8
+Version=1.1
+Released=2022-02-23 09:24:53
+Downloaded=2023-01-20 22:33:14
+3D=Y

@@ -1,0 +1,13 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MT9P006I12STCU")(type "KiCad")(uri "${KIPRJMOD}/Parts/MT9P006I12STCU/MT9P006I12STCU.kicad_sym")(options "")(descr ""))
+  (lib (name "OV5640-A71A")(type "KiCad")(uri "${KIPRJMOD}/Parts/OV5640-A71A/OV5640-A71A.kicad_sym")(options "")(descr ""))
+  (lib (name "ST4-20-1.50-L-D-P-TR")(type "KiCad")(uri "${KIPRJMOD}/Parts/ST4-20-1.50-L-D-P-TR/ST4-20-1.50-L-D-P-TR.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS7A0228PDBVR")(type "Legacy")(uri "${KIPRJMOD}/Parts/TPS7A0228PDBVR/TPS7A0228PDBVR.lib")(options "")(descr ""))
+  (lib (name "ECS-2520MV-480-CM-TR")(type "Legacy")(uri "${KIPRJMOD}/Parts/ECS-2520MV-480-CM-TR/ECS-2520MV-480-CM-TR.lib")(options "")(descr ""))
+  (lib (name "TMP117MAIDRVR")(type "Legacy")(uri "${KIPRJMOD}/Parts/TMP117MAIDRVR/TMP117MAIDRVR.lib")(options "")(descr ""))
+  (lib (name "orion-b16")(type "KiCad")(uri "${KIPRJMOD}/Parts/Venus838FLPx/orion-b16.kicad_sym")(options "")(descr ""))
+  (lib (name "2337019-1")(type "Legacy")(uri "${KIPRJMOD}/Parts/2337019-1/2337019-1.lib")(options "")(descr ""))
+  (lib (name "SS4-20-3.00-L-D-K-TR")(type "Legacy")(uri "${KIPRJMOD}/Parts/SS4-20-3.00-L-D-K-TR/SS4-20-3.00-L-D-K-TR.lib")(options "")(descr ""))
+  (lib (name "10051922-2410ELF")(type "KiCad")(uri "${KIPRJMOD}/Parts/10051922-2410ELF/10051922-2410ELF.kicad_sym")(options "")(descr ""))
+)

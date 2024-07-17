@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=INA219BID
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=1.1
+Released=2019-05-13 13:49:23
+Downloaded=2023-01-19 18:21:25
+3D=Y

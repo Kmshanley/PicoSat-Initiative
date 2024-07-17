@@ -1,0 +1,108 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "SFMH-105-02-L-D-WT" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "J" (id 0) (at -5.58 13.816 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "SFMH-105-02-L-D-WT" (id 1) (at -5.08 -17.78 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "SAMTEC_SFMH-105-02-L-D-WT" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "E" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "Manufacturer Recommendations" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "SAMTEC" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "SFMH-105-02-L-D-WT_0_0"
+      (rectangle (start -5.08 -15.24) (end 5.08 12.7)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin passive line (at -10.16 10.16 0) (length 5.08)
+        (name "02"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "02"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -10.16 7.62 0) (length 5.08)
+        (name "01"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "01"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -10.16 5.08 0) (length 5.08)
+        (name "04"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "04"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -10.16 2.54 0) (length 5.08)
+        (name "03"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "03"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -10.16 0.0 0) (length 5.08)
+        (name "06"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "06"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -10.16 -2.54 0) (length 5.08)
+        (name "05"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "05"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -10.16 -5.08 0) (length 5.08)
+        (name "08"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "08"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -10.16 -7.62 0) (length 5.08)
+        (name "07"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "07"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -10.16 -10.16 0) (length 5.08)
+        (name "10"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -10.16 -12.7 0) (length 5.08)
+        (name "09"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "09"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

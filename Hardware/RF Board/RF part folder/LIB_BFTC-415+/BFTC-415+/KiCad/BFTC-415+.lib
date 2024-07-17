@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model BFTC-415+
+#/14045088/1139800/2.50/6/3/Filter
+DEF BFTC-415+ FL 0 30 Y Y 1 F N
+F0 "FL" 1350 300 50 H V L CNN
+F1 "BFTC-415+" 1350 200 50 H V L CNN
+F2 "BFTC415" 1350 100 50 H I L CNN
+F3 "https://www.minicircuits.com/pdfs/BFTC-415+.pdf" 1350 0 50 H I L CNN
+F4 "Ceramic Bandpass Filter 50 330 to 500 MHz" 1350 -100 50 H I L CNN "Description"
+F5 "1.5" 1350 -200 50 H I L CNN "Height"
+F6 "" 1350 -300 50 H I L CNN "Mouser Part Number"
+F7 "" 1350 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Mini-Circuits" 1350 -500 50 H I L CNN "Manufacturer_Name"
+F9 "BFTC-415+" 1350 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X GROUND_1 1 0 0 200 R 50 50 0 0 P
+X RF_IN 2 0 -100 200 R 50 50 0 0 P
+X GROUND_2 3 0 -200 200 R 50 50 0 0 P
+X GROUND_3 4 1500 -200 200 L 50 50 0 0 P
+X RF_OUT 5 1500 -100 200 L 50 50 0 0 P
+X GROUND_4 6 1500 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1300 100 1300 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

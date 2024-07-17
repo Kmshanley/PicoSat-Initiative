@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ST1PS01AJR
+D Switching Voltage Regulators 400 mA nano-quiescent synchronous step-down converter digital volt selection & P
+K
+F https://www.st.com/resource/en/datasheet/st1ps01.pdf
+$ENDCMP
+#
+#End Doc Library

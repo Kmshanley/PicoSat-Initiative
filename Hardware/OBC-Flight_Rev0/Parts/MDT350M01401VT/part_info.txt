@@ -1,0 +1,9 @@
+Manufacturer=Amphenol Communications Solutions
+PartNumber=MDT350M01401VT
+PartCategory=Connector
+PackageCategory=Other
+PinCount=69
+Version=5.12
+Released=2022-11-01 15:07:25
+Downloaded=2023-03-24 15:07:37
+3D=Y

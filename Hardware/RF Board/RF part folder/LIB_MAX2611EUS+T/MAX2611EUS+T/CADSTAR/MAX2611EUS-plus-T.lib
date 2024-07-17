@@ -1,0 +1,16 @@
+.MAX2611EUS-plus-T :1 ;RF Amplifier DC-to-Microwave, Low-Noise Amplifier
+MAX2611EUST
+*STM IC
+*NGS
+*PLB 1="OUT" 2="GND_1" 3="IN" 4="GND_2"
+*MXP 4
+*DFN MAX2611EUS-plus-T
+~!Mouser Part Number (700-MAX2611EUS+T)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX2611EUS%2bT?qs=GxOUx7aO6nzhsdyrBwYTYA%3D%3D)
+~!Manufacturer_Name (Analog Devices)
+~!Manufacturer_Part_Number (MAX2611EUS+T)
+~!Link Datasheet (-)
+~!Height (1.22mm)
+~!3D_Model (MAX2611EUS+T)
+MAX2611EUS-plus-T
+1.1!U 2.1!U 3.1!U 4.1!U 

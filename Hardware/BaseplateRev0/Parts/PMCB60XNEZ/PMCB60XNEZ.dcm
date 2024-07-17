@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PMCB60XNEZ
+D PMCB60XNE - 30 V, N-channel Trench MOSFET@en-us
+K
+F https://assets.nexperia.com/documents/data-sheet/PMCB60XNE.pdf
+$ENDCMP
+#
+#End Doc Library

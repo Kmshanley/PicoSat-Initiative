@@ -1,0 +1,1 @@
+[('IC1', 'C:\\Users\\Kieran Shanley\\Desktop\\Notes\\Senior Spring\\ENGR5000\\Designs\\ExternalFaces\\TMP117MAIDRVR.stp'), ('IC3', 'C:\\Users\\Kieran Shanley\\Desktop\\Notes\\Senior Spring\\ENGR5000\\Designs\\ExternalFaces\\VEML3328.stp'), ('IC2', 'C:\\Users\\Kieran Shanley\\Desktop\\Notes\\Senior Spring\\ENGR5000\\Designs\\ExternalFaces\\DRV8212PDSGR.stp')]

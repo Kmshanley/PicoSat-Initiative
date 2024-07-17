@@ -1,0 +1,2 @@
+- Need cutout for top connector legs
+- Efuse for overcurrent protection
